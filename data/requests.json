@@ -1,0 +1,634 @@
+[
+  {
+    "id": "BA-20261025091500-LAK1",
+    "groupId": "BA-20261025091500",
+    "supplierId": "lakshmi",
+    "supplierName": "Lakshmi Steel & Structural Traders",
+    "builderEmail": "builder@buildai.demo",
+    "projectName": "Green Valley Villa - Phase 1 Foundation",
+    "deliveryArea": "Katpadi, Vellore, Tamil Nadu",
+    "budget": 250000,
+    "deadlineDays": 2,
+    "priority": "balanced",
+    "createdAt": "2026-10-25T09:15:00.000Z",
+    "items": [
+      {
+        "productId": "bb_tmt_001",
+        "name": "Tata Tiscon 550D Fe TMT Rebars 12mm",
+        "category": "TMT Steel & Reinforcement",
+        "quantity": 1200,
+        "unit": "kg",
+        "indicativeUnitPrice": 68,
+        "indicativeSubtotal": 81600,
+        "specification": "IS 1786 Fe 550D High Ductility structural rebar"
+      },
+      {
+        "productId": "bb_tmt_004",
+        "name": "Tata Wiron Gi Binding Wire 18 Gauge",
+        "category": "TMT Steel & Reinforcement",
+        "quantity": 25,
+        "unit": "kg",
+        "indicativeUnitPrice": 82,
+        "indicativeSubtotal": 2050,
+        "specification": "High-tensile galvanized annealed binding wire"
+      },
+      {
+        "productId": "bb_snd_002",
+        "name": "Manufactured M-Sand (Zone II Concreting)",
+        "category": "Sand & Aggregates",
+        "quantity": 400,
+        "unit": "cft",
+        "indicativeUnitPrice": 55,
+        "indicativeSubtotal": 22000,
+        "specification": "VSI double-washed zone II concrete sand"
+      }
+    ],
+    "indicativeSubtotal": 105650,
+    "indicativeDeliveryFee": 750,
+    "indicativeTotal": 106400,
+    "status": "Delivered",
+    "supplierQuote": 104500,
+    "supplierNote": "Dispatched via Tata 407 Tipper (TN-23-AB-4412). Scheduled arrival at Katpadi site by 3:00 PM.",
+    "updatedAt": "2026-10-31T09:37:49.205Z"
+  },
+  {
+    "id": "BA-20261025112000-BAB2",
+    "groupId": "BA-20261025112000",
+    "supplierId": "lakshmi",
+    "supplierName": "Lakshmi Steel & Structural Traders",
+    "builderEmail": "builder@buildai.demo",
+    "projectName": "Arcot Road Commercial Complex",
+    "deliveryArea": "Arcot Road, Vellore, Tamil Nadu",
+    "budget": 180000,
+    "deadlineDays": 3,
+    "priority": "speed",
+    "createdAt": "2026-10-25T11:20:00.000Z",
+    "milestone": "Friday 11:00 AM - Foundation Concrete Slab Pouring",
+    "items": [
+      {
+        "productId": "bb_tmt_001",
+        "name": "Tata Tiscon 550D Fe TMT Rebars 12mm",
+        "category": "TMT Steel & Reinforcement",
+        "quantity": 200,
+        "unit": "bars (12m)",
+        "indicativeUnitPrice": 410,
+        "indicativeSubtotal": 82000,
+        "specification": "IS 1786 Fe 550D High Ductility structural rebar (200 bars = 2,400 kg)"
+      },
+      {
+        "productId": "bb_cem_001",
+        "name": "UltraTech 53 Grade High-Strength OPC Cement",
+        "category": "Cement",
+        "quantity": 100,
+        "unit": "bag",
+        "indicativeUnitPrice": 395,
+        "indicativeSubtotal": 39500,
+        "specification": "IS 269:2015 OPC 53 Grade high early strength structural cement"
+      }
+    ],
+    "indicativeSubtotal": 122958,
+    "indicativeDeliveryFee": 750,
+    "indicativeTotal": 123708,
+    "status": "Delivered",
+    "supplierQuote": 123708,
+    "supplierNote": "DISPATCH SCHEDULED: Re-routed from Babu Agencies Multi-Material Mart due to stockout. Inventory allocated from Rangapuram depot. Delivery confirmed for Thursday Oct 29, 3:30 PM.",
+    "updatedAt": "2026-10-31T09:37:19.903Z",
+    "failure": null,
+    "failureResolved": true,
+    "auditTrail": [
+      {
+        "timestamp": "2026-10-26T13:57:10.877Z",
+        "event": "SUPPLIER_SUBSTITUTION_APPROVED",
+        "details": "Builder approved Failure Recovery plan. Substituted from Babu Agencies Multi-Material Mart to Lakshmi Steel & Structural Traders. Extra cost: ₹1558. Delivery secured for Thursday 3:30 PM (19.5h ahead of milestone)."
+      }
+    ]
+  },
+  {
+    "id": "BA-20261026073946-J7ZF-babu",
+    "groupId": "BA-20261026073946-J7ZF",
+    "supplierId": "babu",
+    "supplierName": "Babu Agencies Multi-Material Mart",
+    "builderEmail": "builder@buildai.demo",
+    "projectName": "Vellore residential project",
+    "deliveryArea": "Vellore, Tamil Nadu",
+    "budget": 300000,
+    "deadlineDays": 5,
+    "priority": "quality",
+    "createdAt": "2026-10-26T07:39:46.630Z",
+    "items": [
+      {
+        "productId": "bb_cem_001",
+        "name": "UltraTech 43 Grade Ordinary Portland Cement (OPC)",
+        "category": "Cement",
+        "quantity": 100,
+        "unit": "bag",
+        "indicativeUnitPrice": 403,
+        "indicativeSubtotal": 40300,
+        "specification": "IS 269:2015 OPC 43 Grade; 50 kg HDPE Bag"
+      },
+      {
+        "productId": "bb_tmt_001",
+        "name": "Tata Tiscon 550D TMT Bar 8mm",
+        "category": "TMT Steel & Reinforcement",
+        "quantity": 1500,
+        "unit": "kg",
+        "indicativeUnitPrice": 69,
+        "indicativeSubtotal": 103500,
+        "specification": "8mm diameter · Fe 550D primary steel; 12m length"
+      },
+      {
+        "productId": "bb_snd_001",
+        "name": "Screened Concrete River Sand",
+        "category": "Sand & Aggregates",
+        "quantity": 300,
+        "unit": "cft",
+        "indicativeUnitPrice": 56,
+        "indicativeSubtotal": 16800,
+        "specification": "Silt content < 3% · Washed & graded for high-grade RCC"
+      },
+      {
+        "productId": "paint_almond_crush",
+        "name": "Royale Luxury · Almond Crush",
+        "category": "Paints",
+        "quantity": 20,
+        "unit": "litre",
+        "indicativeUnitPrice": 530,
+        "indicativeSubtotal": 10600,
+        "specification": "1L can · Velvety crushed almond off-white"
+      },
+      {
+        "productId": "bb_pip_002",
+        "name": "Astral CPVC Pro Pipe 3/4 inch",
+        "category": "Pipes & Plumbing",
+        "quantity": 6,
+        "unit": "length",
+        "indicativeUnitPrice": 250,
+        "indicativeSubtotal": 1500,
+        "specification": "SDR 11 residential bathroom concealed line; 3m length"
+      }
+    ],
+    "indicativeSubtotal": 172700,
+    "indicativeDeliveryFee": 750,
+    "indicativeTotal": 173450,
+    "status": "Order confirmed",
+    "supplierQuote": null,
+    "supplierNote": "",
+    "updatedAt": "2026-10-26T13:54:19.928Z",
+    "failure": null,
+    "failureResolved": true
+  },
+  {
+    "id": "BA-20261026072821-MDB8-lakshmi",
+    "groupId": "BA-20261026072821-MDB8",
+    "supplierId": "lakshmi",
+    "supplierName": "Lakshmi Steel & Structural Traders",
+    "builderEmail": "builder@buildai.demo",
+    "projectName": "Vellore residential project",
+    "deliveryArea": "Vellore, Tamil Nadu",
+    "budget": 350000,
+    "deadlineDays": 3,
+    "priority": "quality",
+    "createdAt": "2026-10-26T07:28:21.762Z",
+    "items": [
+      {
+        "productId": "bb_cem_001",
+        "name": "UltraTech 43 Grade Ordinary Portland Cement (OPC)",
+        "category": "Cement",
+        "quantity": 150,
+        "unit": "bag",
+        "indicativeUnitPrice": 403,
+        "indicativeSubtotal": 60450,
+        "specification": "IS 269:2015 OPC 43 Grade; 50 kg HDPE Bag"
+      },
+      {
+        "productId": "bb_tmt_001",
+        "name": "Tata Tiscon 550D TMT Bar 8mm",
+        "category": "TMT Steel & Reinforcement",
+        "quantity": 200,
+        "unit": "kg",
+        "indicativeUnitPrice": 69,
+        "indicativeSubtotal": 13800,
+        "specification": "8mm diameter · Fe 550D primary steel; 12m length"
+      },
+      {
+        "productId": "bb_snd_002",
+        "name": "Manufactured Sand (M-Sand Concrete)",
+        "category": "Sand & Aggregates",
+        "quantity": 500,
+        "unit": "cft",
+        "indicativeUnitPrice": 43,
+        "indicativeSubtotal": 21500,
+        "specification": "Zone II graded crushed blue metal sand for slabs & RCC"
+      },
+      {
+        "productId": "bb_brk_001",
+        "name": "Red Clay Wire-Cut Kiln Bricks",
+        "category": "Bricks & Blocks",
+        "quantity": 5000,
+        "unit": "piece",
+        "indicativeUnitPrice": 9,
+        "indicativeSubtotal": 45000,
+        "specification": "9x4.5x3 inch · 7.5 N/mm² compressive strength; table-moulded"
+      }
+    ],
+    "indicativeSubtotal": 140750,
+    "indicativeDeliveryFee": 550,
+    "indicativeTotal": 141300,
+    "status": "Delivered",
+    "supplierQuote": null,
+    "supplierNote": "",
+    "updatedAt": "2026-10-31T09:37:05.168Z"
+  },
+  {
+    "id": "BA-20261025171753-ULIB-geetha",
+    "groupId": "BA-20261025171753-ULIB",
+    "supplierId": "geetha",
+    "supplierName": "Geetha Timbers & Flooring",
+    "builderEmail": "builder@buildai.demo",
+    "projectName": "Vellore residential project",
+    "deliveryArea": "Vellore, Tamil Nadu",
+    "budget": 50000,
+    "deadlineDays": 3,
+    "priority": "balanced",
+    "createdAt": "2026-10-25T17:17:53.577Z",
+    "items": [
+      {
+        "productId": "bb_mcp_005",
+        "name": "Navy Pattern Carpet Plank",
+        "category": "Modular Carpet Planks",
+        "quantity": 20,
+        "unit": "tile",
+        "indicativeUnitPrice": 230,
+        "indicativeSubtotal": 4600,
+        "specification": "Patterned commercial carpet tile · 500 x 500 mm"
+      }
+    ],
+    "indicativeSubtotal": 4600,
+    "indicativeDeliveryFee": 500,
+    "indicativeTotal": 5100,
+    "status": "Quote sent",
+    "supplierQuote": 4800,
+    "supplierNote": "Price is increased now",
+    "updatedAt": "2026-10-26T13:59:13.264Z",
+    "failure": null,
+    "failureResolved": true
+  },
+  {
+    "id": "BA-20261031093640-V3RD-lakshmi",
+    "groupId": "BA-20261031093640-V3RD",
+    "supplierId": "pandian-ply",
+    "supplierName": "Pandian Ply & Structural Mart",
+    "builderEmail": "builder@buildai.demo",
+    "projectName": "Vellore residential project",
+    "deliveryArea": "Vellore, Tamil Nadu",
+    "budget": 10000,
+    "deadlineDays": 7,
+    "priority": "cost",
+    "createdAt": "2026-10-31T09:36:40.484Z",
+    "items": [
+      {
+        "productId": "bb_cem_002",
+        "name": "UltraTech 53 Grade High-Strength OPC Cement",
+        "category": "Cement",
+        "quantity": 10,
+        "unit": "bag",
+        "indicativeUnitPrice": 434,
+        "indicativeSubtotal": 4340,
+        "specification": "IS 12269:2013 High-Strength 53 Grade; 50 kg Bag"
+      }
+    ],
+    "indicativeSubtotal": 4449,
+    "indicativeDeliveryFee": 850,
+    "indicativeTotal": 5299,
+    "status": "Order confirmed",
+    "supplierQuote": null,
+    "supplierNote": "DISPATCH SCHEDULED: Re-routed from Lakshmi Steel & Structural Traders due to stockout. Inventory allocated from Rangapuram depot. Delivery confirmed for Thursday Oct 29, 3:30 PM.",
+    "updatedAt": "2026-10-31T10:09:38.618Z",
+    "failure": null,
+    "failureResolved": true,
+    "auditTrail": [
+      {
+        "timestamp": "2026-10-31T10:09:05.976Z",
+        "event": "SUPPLIER_SUBSTITUTION_APPROVED",
+        "details": "Builder approved Failure Recovery plan. Substituted from Lakshmi Steel & Structural Traders to Pandian Ply & Structural Mart. Extra cost: ₹409. Delivery secured for Thursday 3:30 PM (19.5h ahead of milestone)."
+      }
+    ]
+  },
+  {
+    "id": "BA-20261031093640-V3RD-babu",
+    "groupId": "BA-20261031093640-V3RD",
+    "supplierId": "babu",
+    "supplierName": "Babu Agencies Multi-Material Mart",
+    "builderEmail": "builder@buildai.demo",
+    "projectName": "Vellore residential project",
+    "deliveryArea": "Vellore, Tamil Nadu",
+    "budget": 10000,
+    "deadlineDays": 7,
+    "priority": "cost",
+    "createdAt": "2026-10-31T09:36:40.484Z",
+    "items": [
+      {
+        "productId": "bb_til_005",
+        "name": "Anti-Skid Bathroom Tile",
+        "category": "Tiles",
+        "quantity": 20,
+        "unit": "sq ft",
+        "indicativeUnitPrice": 59,
+        "indicativeSubtotal": 1180,
+        "specification": "Textured anti-slip surface · 300 x 300 mm"
+      },
+      {
+        "productId": "bb_lvt_001",
+        "name": "Oak LVT Plank",
+        "category": "LVT Flooring",
+        "quantity": 10,
+        "unit": "sq ft",
+        "indicativeUnitPrice": 97,
+        "indicativeSubtotal": 970,
+        "specification": "Luxury vinyl tile; click/adhesive fit · 4.5 mm; 0.3 mm wear layer"
+      }
+    ],
+    "indicativeSubtotal": 2150,
+    "indicativeDeliveryFee": 750,
+    "indicativeTotal": 2900,
+    "status": "Pending response",
+    "supplierQuote": null,
+    "supplierNote": "",
+    "updatedAt": null
+  },
+  {
+    "id": "BA-20261025171753-ULIB-babu",
+    "groupId": "BA-20261025171753-ULIB",
+    "supplierId": "lakshmi",
+    "supplierName": "Lakshmi Steel & Structural Traders",
+    "builderEmail": "builder@buildai.demo",
+    "projectName": "Vellore residential project",
+    "deliveryArea": "Vellore, Tamil Nadu",
+    "budget": 50000,
+    "deadlineDays": 3,
+    "priority": "balanced",
+    "createdAt": "2026-10-25T17:17:53.577Z",
+    "items": [
+      {
+        "productId": "bb_tmt_001",
+        "name": "Tata Tiscon 550D TMT Bar 8mm",
+        "category": "TMT Steel & Reinforcement",
+        "quantity": 100,
+        "unit": "kg",
+        "indicativeUnitPrice": 69,
+        "indicativeSubtotal": 6900,
+        "specification": "8mm diameter · Fe 550D primary steel; 12m length"
+      },
+      {
+        "productId": "bb_snd_001",
+        "name": "Screened Concrete River Sand",
+        "category": "Sand & Aggregates",
+        "quantity": 100,
+        "unit": "cft",
+        "indicativeUnitPrice": 56,
+        "indicativeSubtotal": 5600,
+        "specification": "Silt content < 3% · Washed & graded for high-grade RCC"
+      },
+      {
+        "productId": "bb_pip_001",
+        "name": "Astral CPVC Pro Pipe 1 inch",
+        "category": "Pipes & Plumbing",
+        "quantity": 10,
+        "unit": "length",
+        "indicativeUnitPrice": 347,
+        "indicativeSubtotal": 3470,
+        "specification": "SDR 11 heavy pressure hot & cold water pipe; 3m length"
+      }
+    ],
+    "indicativeSubtotal": 16162,
+    "indicativeDeliveryFee": 750,
+    "indicativeTotal": 16912,
+    "status": "Delivered",
+    "supplierQuote": null,
+    "supplierNote": "DISPATCH SCHEDULED: Re-routed from Babu Agencies Multi-Material Mart due to stockout. Inventory allocated from Rangapuram depot. Delivery confirmed for Thursday Oct 29, 3:30 PM.",
+    "updatedAt": "2026-10-31T09:37:27.664Z",
+    "failure": null,
+    "failureResolved": true,
+    "auditTrail": [
+      {
+        "timestamp": "2026-10-25T17:46:55.616Z",
+        "event": "SUPPLIER_SUBSTITUTION_APPROVED",
+        "details": "Builder approved Failure Recovery plan. Substituted from Babu Agencies Multi-Material Mart to Lakshmi Steel & Structural Traders. Extra cost: ₹192. Delivery secured for Thursday 3:30 PM (19.5h ahead of milestone)."
+      }
+    ]
+  },
+  {
+    "id": "BA-20261031123024-JT75-babu",
+    "groupId": "BA-20261031123024-JT75",
+    "supplierId": "lakshmi",
+    "supplierName": "Lakshmi Steel & Structural Traders",
+    "builderEmail": "builder@buildai.demo",
+    "projectName": "Vellore residential project",
+    "deliveryArea": "Vellore, Tamil Nadu",
+    "budget": 10000,
+    "deadlineDays": 7,
+    "priority": "cost",
+    "createdAt": "2026-10-31T12:30:24.840Z",
+    "items": [
+      {
+        "productId": "bb_cem_001",
+        "name": "UltraTech 43 Grade Ordinary Portland Cement (OPC)",
+        "category": "Cement",
+        "quantity": 10,
+        "unit": "bag",
+        "indicativeUnitPrice": 403,
+        "indicativeSubtotal": 4030,
+        "specification": "IS 269:2015 OPC 43 Grade; 50 kg HDPE Bag"
+      },
+      {
+        "productId": "bb_til_005",
+        "name": "Anti-Skid Bathroom Tile",
+        "category": "Tiles",
+        "quantity": 20,
+        "unit": "sq ft",
+        "indicativeUnitPrice": 59,
+        "indicativeSubtotal": 1180,
+        "specification": "Textured anti-slip surface · 300 x 300 mm"
+      },
+      {
+        "productId": "bb_lvt_001",
+        "name": "Oak LVT Plank",
+        "category": "LVT Flooring",
+        "quantity": 10,
+        "unit": "sq ft",
+        "indicativeUnitPrice": 97,
+        "indicativeSubtotal": 970,
+        "specification": "Luxury vinyl tile; click/adhesive fit · 4.5 mm; 0.3 mm wear layer"
+      }
+    ],
+    "indicativeSubtotal": 6254,
+    "indicativeDeliveryFee": 750,
+    "indicativeTotal": 7004,
+    "status": "Delivered",
+    "supplierQuote": 7004,
+    "supplierNote": "DISPATCH SCHEDULED: Re-routed from Babu Agencies Multi-Material Mart due to stockout. Inventory allocated from Rangapuram depot. Delivery confirmed for Thursday Oct 29, 3:30 PM.",
+    "updatedAt": "2026-10-31T12:34:44.290Z",
+    "failure": null,
+    "failureResolved": true,
+    "auditTrail": [
+      {
+        "timestamp": "2026-10-31T12:32:57.452Z",
+        "event": "SUPPLIER_SUBSTITUTION_APPROVED",
+        "details": "Builder approved Failure Recovery plan. Substituted from Babu Agencies Multi-Material Mart to Lakshmi Steel & Structural Traders. Extra cost: ₹74. Delivery secured for Thursday 3:30 PM (19.5h ahead of milestone)."
+      }
+    ]
+  },
+  {
+    "id": "BA-20261031123740-O4RA-babu",
+    "groupId": "BA-20261031123740-O4RA",
+    "supplierId": "babu",
+    "supplierName": "Babu Agencies Multi-Material Mart",
+    "builderEmail": "builder@buildai.demo",
+    "projectName": "Foundation Work",
+    "deliveryArea": "Vellore, Tamil Nadu",
+    "budget": 10000,
+    "deadlineDays": 7,
+    "priority": "cost",
+    "createdAt": "2026-10-31T12:37:40.266Z",
+    "items": [
+      {
+        "productId": "bb_cem_001",
+        "name": "UltraTech 43 Grade Ordinary Portland Cement (OPC)",
+        "category": "Cement",
+        "quantity": 50,
+        "unit": "bag",
+        "indicativeUnitPrice": 403,
+        "indicativeSubtotal": 20150,
+        "specification": "IS 269:2015 OPC 43 Grade; 50 kg HDPE Bag"
+      },
+      {
+        "productId": "bb_tmt_001",
+        "name": "Tata Tiscon 550D TMT Bar 8mm",
+        "category": "TMT Steel & Reinforcement",
+        "quantity": 400,
+        "unit": "kg",
+        "indicativeUnitPrice": 69,
+        "indicativeSubtotal": 27600,
+        "specification": "8mm diameter · Fe 550D primary steel; 12m length"
+      },
+      {
+        "productId": "bb_skb_001",
+        "name": "White PVC Skirting",
+        "category": "Skirting Boards",
+        "quantity": 1,
+        "unit": "metre",
+        "indicativeUnitPrice": 97,
+        "indicativeSubtotal": 97,
+        "specification": "PVC skirting board · 80 mm height"
+      }
+    ],
+    "indicativeSubtotal": 47847,
+    "indicativeDeliveryFee": 750,
+    "indicativeTotal": 48597,
+    "status": "Order confirmed",
+    "supplierQuote": null,
+    "supplierNote": "",
+    "updatedAt": "2026-10-31T12:52:07.398Z",
+    "failure": null,
+    "failureResolved": true
+  },
+  {
+    "id": "BA-20261031131202-JX02-dk-paints",
+    "groupId": "BA-20261031131202-JX02",
+    "supplierId": "dk-paints",
+    "supplierName": "D.K. Paints & Finishing Essentials",
+    "builderEmail": "builder@buildai.demo",
+    "projectName": "Vellore residential project",
+    "deliveryArea": "Vellore, Tamil Nadu",
+    "budget": 100000,
+    "deadlineDays": 3,
+    "priority": "balanced",
+    "createdAt": "2026-10-31T13:12:02.197Z",
+    "items": [
+      {
+        "productId": "bb_mcp_001",
+        "name": "Charcoal Office Carpet Plank",
+        "category": "Modular Carpet Planks",
+        "quantity": 150,
+        "unit": "tile",
+        "indicativeUnitPrice": 189,
+        "indicativeSubtotal": 28350,
+        "specification": "Solution-dyed carpet tile · 500 x 500 mm"
+      },
+      {
+        "productId": "bb_stn_001",
+        "name": "Black Galaxy Granite",
+        "category": "Stones",
+        "quantity": 200,
+        "unit": "sq ft",
+        "indicativeUnitPrice": 184,
+        "indicativeSubtotal": 36800,
+        "specification": "Polished natural granite · 18 mm slab"
+      }
+    ],
+    "indicativeSubtotal": 65150,
+    "indicativeDeliveryFee": 650,
+    "indicativeTotal": 65800,
+    "status": "Pending response",
+    "supplierQuote": null,
+    "supplierNote": "",
+    "updatedAt": null
+  },
+  {
+    "id": "BA-20261031131202-JX02-babu",
+    "groupId": "BA-20261031131202-JX02",
+    "supplierId": "lakshmi",
+    "supplierName": "Lakshmi Steel & Structural Traders",
+    "builderEmail": "builder@buildai.demo",
+    "projectName": "Vellore residential project",
+    "deliveryArea": "Vellore, Tamil Nadu",
+    "budget": 100000,
+    "deadlineDays": 3,
+    "priority": "balanced",
+    "createdAt": "2026-10-31T13:12:02.197Z",
+    "items": [
+      {
+        "productId": "bb_cem_001",
+        "name": "UltraTech 43 Grade Ordinary Portland Cement (OPC)",
+        "category": "Cement",
+        "quantity": 50,
+        "unit": "bag",
+        "indicativeUnitPrice": 403,
+        "indicativeSubtotal": 20150,
+        "specification": "IS 269:2015 OPC 43 Grade; 50 kg HDPE Bag"
+      }
+    ],
+    "indicativeSubtotal": 20392,
+    "indicativeDeliveryFee": 750,
+    "indicativeTotal": 21142,
+    "status": "Order confirmed (Substituted via Recovery Engine)",
+    "supplierQuote": 21142,
+    "supplierNote": "DISPATCH SCHEDULED: Re-routed from Babu Agencies Multi-Material Mart due to stockout. Inventory allocated from Rangapuram depot. Delivery confirmed for Thursday Oct 29, 3:30 PM.",
+    "updatedAt": "2026-10-31T13:13:43.220Z",
+    "failure": {
+      "type": "stockout",
+      "title": "Supplier Stockout on 200 Units",
+      "reason": "Primary supplier out of stock on 200 units of Fe 550D TMT Rebar due to regional mill allocation deficit. Deliveries delayed by 4 days to next Tuesday.",
+      "reportedAt": "2026-10-31T13:13:09.658Z",
+      "reportedBy": "Babu Agencies Multi-Material Mart Logistics Desk",
+      "shortfallQty": 200,
+      "delayDays": 4,
+      "milestone": "Friday 11:00 AM - Foundation Concrete Slab Pouring",
+      "severity": "CRITICAL",
+      "penaltyRisk": "₹25,000/day idle transit mixer & pump crew penalty"
+    },
+    "failureResolved": true,
+    "originalSupplierId": "babu",
+    "originalSupplierName": "Babu Agencies Multi-Material Mart",
+    "originalSubtotal": 20150,
+    "originalDeliveryFee": 750,
+    "originalTotal": 20900,
+    "auditTrail": [
+      {
+        "timestamp": "2026-10-31T13:13:43.220Z",
+        "event": "SUPPLIER_SUBSTITUTION_APPROVED",
+        "details": "Builder approved Failure Recovery plan. Substituted from Babu Agencies Multi-Material Mart to Lakshmi Steel & Structural Traders. Extra cost: ₹242. Delivery secured for Thursday 3:30 PM (19.5h ahead of milestone)."
+      }
+    ]
+  }
+]

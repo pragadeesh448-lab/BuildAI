@@ -1,0 +1,29 @@
+{
+  "builder": {
+    "email": "builder@buildai.demo",
+    "password": "BuildAI123"
+  },
+  "supplierPassword": "Supplier123",
+  "suppliers": [
+    {
+      "id": "lakshmi",
+      "email": "lakshmi@buildai.demo"
+    },
+    {
+      "id": "pandian-ply",
+      "email": "pandian@buildai.demo"
+    },
+    {
+      "id": "babu",
+      "email": "babu@buildai.demo"
+    },
+    {
+      "id": "geetha",
+      "email": "geetha@buildai.demo"
+    },
+    {
+      "id": "dk-paints",
+      "email": "dkpaints@buildai.demo"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+id,name,email,password,role
+lakshmi,Lakshmi Steel Traders,lakshmi@buildai.demo,Supplier123,supplier_demo
+pandian-ply,Pandian Ply / Pandian & Co,pandian@buildai.demo,Supplier123,supplier_demo
+babu,Babu Agencies,babu@buildai.demo,Supplier123,supplier_demo
+geetha,Geetha Timbers,geetha@buildai.demo,Supplier123,supplier_demo
+dk-paints,D.K. Paints & Hardware,dkpaints@buildai.demo,Supplier123,supplier_demo

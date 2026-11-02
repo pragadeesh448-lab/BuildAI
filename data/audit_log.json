@@ -1,0 +1,338 @@
+[
+  {
+    "id": "AUD-1793022859971-27fe",
+    "timestamp": "2026-10-26T13:54:19Z",
+    "action": "ORDER_CREATED",
+    "orderId": "BA-20261026073946-J7ZF-babu",
+    "actor": "builder@buildai.demo",
+    "details": "Created order for supplier babu, Total: ₹173450"
+  },
+  {
+    "id": "AUD-1793022877737-5d21",
+    "timestamp": "2026-10-26T13:54:37Z",
+    "action": "ORDER_UPDATED",
+    "orderId": "BA-20261025112000-BAB2",
+    "actor": "babu",
+    "details": "Status: 'Order confirmed' -> 'Out for delivery', Quote: ₹122150"
+  },
+  {
+    "id": "AUD-1793022993215-1a7a",
+    "timestamp": "2026-10-26T13:56:33Z",
+    "action": "ORDER_UPDATED",
+    "orderId": "BA-20261025112000-BAB2",
+    "actor": "babu",
+    "details": "Status: 'Out for delivery' -> 'Supplier failure reported - Recovery plan generated', Quote: ₹122150"
+  },
+  {
+    "id": "AUD-1793022993226-401e",
+    "timestamp": "2026-10-26T13:56:33Z",
+    "action": "SUPPLIER_FAILURE_REPORTED",
+    "orderId": "BA-20261025112000-BAB2",
+    "actor": "babu",
+    "details": "Type: stockout, Shortfall: 200, Delay: 4d, Reason: Primary supplier out of stock on 200 units of Fe 550D TMT Rebar due to regional mill allocation deficit. Deliveries delayed by 4 days to next Tuesday."
+  },
+  {
+    "id": "AUD-1793023030886-5b27",
+    "timestamp": "2026-10-26T13:57:10Z",
+    "action": "ORDER_UPDATED",
+    "orderId": "BA-20261025112000-BAB2",
+    "actor": "lakshmi",
+    "details": "Status: 'Supplier failure reported - Recovery plan generated' -> 'Order confirmed (Substituted via Recovery Engine)', Quote: ₹123708"
+  },
+  {
+    "id": "AUD-1793023030897-d903",
+    "timestamp": "2026-10-26T13:57:10Z",
+    "action": "SUPPLIER_FAILURE_REPORTED",
+    "orderId": "BA-20261025112000-BAB2",
+    "actor": "lakshmi",
+    "details": "Type: stockout, Shortfall: 200, Delay: 4d, Reason: Primary supplier out of stock on 200 units of Fe 550D TMT Rebar due to regional mill allocation deficit. Deliveries delayed by 4 days to next Tuesday."
+  },
+  {
+    "id": "AUD-1793023083113-5a13",
+    "timestamp": "2026-10-26T13:58:03Z",
+    "action": "ORDER_UPDATED",
+    "orderId": "BA-20261025112000-BAB2",
+    "actor": "lakshmi",
+    "details": "Status: 'Order confirmed (Substituted via Recovery Engine)' -> 'Order confirmed', Quote: ₹123708"
+  },
+  {
+    "id": "AUD-1793023093394-32f4",
+    "timestamp": "2026-10-26T13:58:13Z",
+    "action": "ORDER_CREATED",
+    "orderId": "BA-20261026072821-MDB8-lakshmi",
+    "actor": "builder@buildai.demo",
+    "details": "Created order for supplier lakshmi, Total: ₹141300"
+  },
+  {
+    "id": "AUD-1793023153284-3dc6",
+    "timestamp": "2026-10-26T13:59:13Z",
+    "action": "ORDER_CREATED",
+    "orderId": "BA-20261025171753-ULIB-geetha",
+    "actor": "builder@buildai.demo",
+    "details": "Created order for supplier geetha, Total: ₹5100"
+  },
+  {
+    "id": "AUD-1793439400489-7784",
+    "timestamp": "2026-10-31T09:36:40Z",
+    "action": "ORDER_CREATED",
+    "orderId": "BA-20261031093640-V3RD-lakshmi",
+    "actor": "builder@buildai.demo",
+    "details": "Created order for supplier lakshmi, Total: ₹4890"
+  },
+  {
+    "id": "AUD-1793439400502-f9a9",
+    "timestamp": "2026-10-31T09:36:40Z",
+    "action": "ORDER_CREATED",
+    "orderId": "BA-20261031093640-V3RD-babu",
+    "actor": "builder@buildai.demo",
+    "details": "Created order for supplier babu, Total: ₹2900"
+  },
+  {
+    "id": "AUD-1793439425187-41c4",
+    "timestamp": "2026-10-31T09:37:05Z",
+    "action": "ORDER_UPDATED",
+    "orderId": "BA-20261026072821-MDB8-lakshmi",
+    "actor": "lakshmi",
+    "details": "Status: 'Under review' -> 'Delivered', Quote: ₹None"
+  },
+  {
+    "id": "AUD-1793439439925-86cb",
+    "timestamp": "2026-10-31T09:37:19Z",
+    "action": "ORDER_UPDATED",
+    "orderId": "BA-20261025112000-BAB2",
+    "actor": "lakshmi",
+    "details": "Status: 'Order confirmed' -> 'Delivered', Quote: ₹123708"
+  },
+  {
+    "id": "AUD-1793439442378-4887",
+    "timestamp": "2026-10-31T09:37:22Z",
+    "action": "ORDER_UPSERTED",
+    "orderId": "BA-20261025171753-ULIB-babu",
+    "actor": "lakshmi",
+    "details": "Status: 'Order confirmed', Quote: ₹None"
+  },
+  {
+    "id": "AUD-1793439447687-b69b",
+    "timestamp": "2026-10-31T09:37:27Z",
+    "action": "ORDER_UPDATED",
+    "orderId": "BA-20261025171753-ULIB-babu",
+    "actor": "lakshmi",
+    "details": "Status: 'Order confirmed' -> 'Delivered', Quote: ₹None"
+  },
+  {
+    "id": "AUD-1793439454802-41a8",
+    "timestamp": "2026-10-31T09:37:34Z",
+    "action": "ORDER_UPDATED",
+    "orderId": "BA-20261025091500-LAK1",
+    "actor": "lakshmi",
+    "details": "Status: 'Order confirmed' -> 'Delivered', Quote: ₹104500"
+  },
+  {
+    "id": "AUD-1793439469228-84db",
+    "timestamp": "2026-10-31T09:37:49Z",
+    "action": "ORDER_UPDATED",
+    "orderId": "BA-20261025091500-LAK1",
+    "actor": "lakshmi",
+    "details": "Status: 'Delivered' -> 'Delivered', Quote: ₹104500"
+  },
+  {
+    "id": "AUD-1793439484338-bb94",
+    "timestamp": "2026-10-31T09:38:04Z",
+    "action": "ORDER_UPDATED",
+    "orderId": "BA-20261031093640-V3RD-lakshmi",
+    "actor": "lakshmi",
+    "details": "Status: 'Pending response' -> 'Order confirmed', Quote: ₹None"
+  },
+  {
+    "id": "AUD-1793441326057-5a32",
+    "timestamp": "2026-10-31T10:08:46Z",
+    "action": "ORDER_UPDATED",
+    "orderId": "BA-20261031093640-V3RD-lakshmi",
+    "actor": "lakshmi",
+    "details": "Status: 'Order confirmed' -> 'Supplier failure reported - Recovery plan generated', Quote: ₹None"
+  },
+  {
+    "id": "AUD-1793441326067-c818",
+    "timestamp": "2026-10-31T10:08:46Z",
+    "action": "SUPPLIER_FAILURE_REPORTED",
+    "orderId": "BA-20261031093640-V3RD-lakshmi",
+    "actor": "lakshmi",
+    "details": "Type: stockout, Shortfall: 1, Delay: 4d, Reason: Primary supplier out of stock on 200 units of Fe 550D TMT Rebar due to regional mill allocation deficit. Deliveries delayed by 4 days to next Tuesday."
+  },
+  {
+    "id": "AUD-1793441345991-01ac",
+    "timestamp": "2026-10-31T10:09:05Z",
+    "action": "ORDER_UPDATED",
+    "orderId": "BA-20261031093640-V3RD-lakshmi",
+    "actor": "pandian-ply",
+    "details": "Status: 'Supplier failure reported - Recovery plan generated' -> 'Order confirmed (Substituted via Recovery Engine)', Quote: ₹5299"
+  },
+  {
+    "id": "AUD-1793441346002-fd73",
+    "timestamp": "2026-10-31T10:09:06Z",
+    "action": "SUPPLIER_FAILURE_REPORTED",
+    "orderId": "BA-20261031093640-V3RD-lakshmi",
+    "actor": "pandian-ply",
+    "details": "Type: stockout, Shortfall: 1, Delay: 4d, Reason: Primary supplier out of stock on 200 units of Fe 550D TMT Rebar due to regional mill allocation deficit. Deliveries delayed by 4 days to next Tuesday."
+  },
+  {
+    "id": "AUD-1793441378630-a766",
+    "timestamp": "2026-10-31T10:09:38Z",
+    "action": "ORDER_UPDATED",
+    "orderId": "BA-20261031093640-V3RD-lakshmi",
+    "actor": "pandian-ply",
+    "details": "Status: 'Order confirmed (Substituted via Recovery Engine)' -> 'Order confirmed', Quote: ₹None"
+  },
+  {
+    "id": "AUD-1793449824852-683c",
+    "timestamp": "2026-10-31T12:30:24Z",
+    "action": "ORDER_CREATED",
+    "orderId": "BA-20261031123024-JT75-babu",
+    "actor": "builder@buildai.demo",
+    "details": "Created order for supplier babu, Total: ₹6930"
+  },
+  {
+    "id": "AUD-1793449880838-8383",
+    "timestamp": "2026-10-31T12:31:20Z",
+    "action": "ORDER_UPDATED",
+    "orderId": "BA-20261031123024-JT75-babu",
+    "actor": "babu",
+    "details": "Status: 'Pending response' -> 'Order confirmed', Quote: ₹None"
+  },
+  {
+    "id": "AUD-1793449929260-9665",
+    "timestamp": "2026-10-31T12:32:09Z",
+    "action": "ORDER_UPDATED",
+    "orderId": "BA-20261031123024-JT75-babu",
+    "actor": "babu",
+    "details": "Status: 'Order confirmed' -> 'Supplier failure reported - Recovery plan generated', Quote: ₹None"
+  },
+  {
+    "id": "AUD-1793449929272-55fe",
+    "timestamp": "2026-10-31T12:32:09Z",
+    "action": "SUPPLIER_FAILURE_REPORTED",
+    "orderId": "BA-20261031123024-JT75-babu",
+    "actor": "babu",
+    "details": "Type: stockout, Shortfall: 200, Delay: 4d, Reason: Primary supplier out of stock on 200 units of Fe 550D TMT Rebar due to regional mill allocation deficit. Deliveries delayed by 4 days to next Tuesday."
+  },
+  {
+    "id": "AUD-1793449977462-06af",
+    "timestamp": "2026-10-31T12:32:57Z",
+    "action": "ORDER_UPDATED",
+    "orderId": "BA-20261031123024-JT75-babu",
+    "actor": "lakshmi",
+    "details": "Status: 'Supplier failure reported - Recovery plan generated' -> 'Order confirmed (Substituted via Recovery Engine)', Quote: ₹7004"
+  },
+  {
+    "id": "AUD-1793449977474-86ef",
+    "timestamp": "2026-10-31T12:32:57Z",
+    "action": "SUPPLIER_FAILURE_REPORTED",
+    "orderId": "BA-20261031123024-JT75-babu",
+    "actor": "lakshmi",
+    "details": "Type: stockout, Shortfall: 200, Delay: 4d, Reason: Primary supplier out of stock on 200 units of Fe 550D TMT Rebar due to regional mill allocation deficit. Deliveries delayed by 4 days to next Tuesday."
+  },
+  {
+    "id": "AUD-1793450005264-b910",
+    "timestamp": "2026-10-31T12:33:25Z",
+    "action": "ORDER_UPDATED",
+    "orderId": "BA-20261031123024-JT75-babu",
+    "actor": "lakshmi",
+    "details": "Status: 'Order confirmed (Substituted via Recovery Engine)' -> 'Order confirmed', Quote: ₹7004"
+  },
+  {
+    "id": "AUD-1793450084301-79a6",
+    "timestamp": "2026-10-31T12:34:44Z",
+    "action": "ORDER_UPDATED",
+    "orderId": "BA-20261031123024-JT75-babu",
+    "actor": "lakshmi",
+    "details": "Status: 'Order confirmed' -> 'Delivered', Quote: ₹7004"
+  },
+  {
+    "id": "AUD-1793450260278-0795",
+    "timestamp": "2026-10-31T12:37:40Z",
+    "action": "ORDER_CREATED",
+    "orderId": "BA-20261031123740-O4RA-babu",
+    "actor": "builder@buildai.demo",
+    "details": "Created order for supplier babu, Total: ₹48597"
+  },
+  {
+    "id": "AUD-1793451127415-2cd0",
+    "timestamp": "2026-10-31T12:52:07Z",
+    "action": "ORDER_UPDATED",
+    "orderId": "BA-20261031123740-O4RA-babu",
+    "actor": "babu",
+    "details": "Status: 'Pending response' -> 'Order confirmed', Quote: ₹None"
+  },
+  {
+    "id": "AUD-1793452322218-f799",
+    "timestamp": "2026-10-31T13:12:02Z",
+    "action": "ORDER_CREATED",
+    "orderId": "BA-20261031131202-JX02-dk-paints",
+    "actor": "builder@buildai.demo",
+    "details": "Created order for supplier dk-paints, Total: ₹65800"
+  },
+  {
+    "id": "AUD-1793452322237-2b47",
+    "timestamp": "2026-10-31T13:12:02Z",
+    "action": "ORDER_CREATED",
+    "orderId": "BA-20261031131202-JX02-babu",
+    "actor": "builder@buildai.demo",
+    "details": "Created order for supplier babu, Total: ₹20900"
+  },
+  {
+    "id": "AUD-1793452357807-230b",
+    "timestamp": "2026-10-31T13:12:37Z",
+    "action": "ORDER_UPDATED",
+    "orderId": "BA-20261031131202-JX02-babu",
+    "actor": "babu",
+    "details": "Status: 'Pending response' -> 'Order confirmed', Quote: ₹None"
+  },
+  {
+    "id": "AUD-1793452389679-c52e",
+    "timestamp": "2026-10-31T13:13:09Z",
+    "action": "ORDER_UPDATED",
+    "orderId": "BA-20261031131202-JX02-babu",
+    "actor": "babu",
+    "details": "Status: 'Order confirmed' -> 'Supplier failure reported - Recovery plan generated', Quote: ₹None"
+  },
+  {
+    "id": "AUD-1793452389737-9357",
+    "timestamp": "2026-10-31T13:13:09Z",
+    "action": "SUPPLIER_FAILURE_REPORTED",
+    "orderId": "BA-20261031131202-JX02-babu",
+    "actor": "babu",
+    "details": "Type: stockout, Shortfall: 200, Delay: 4d, Reason: Primary supplier out of stock on 200 units of Fe 550D TMT Rebar due to regional mill allocation deficit. Deliveries delayed by 4 days to next Tuesday."
+  },
+  {
+    "id": "AUD-1793452423238-c935",
+    "timestamp": "2026-10-31T13:13:43Z",
+    "action": "ORDER_UPDATED",
+    "orderId": "BA-20261031131202-JX02-babu",
+    "actor": "lakshmi",
+    "details": "Status: 'Supplier failure reported - Recovery plan generated' -> 'Order confirmed (Substituted via Recovery Engine)', Quote: ₹21142"
+  },
+  {
+    "id": "AUD-1793452423254-8c91",
+    "timestamp": "2026-10-31T13:13:43Z",
+    "action": "SUPPLIER_FAILURE_REPORTED",
+    "orderId": "BA-20261031131202-JX02-babu",
+    "actor": "lakshmi",
+    "details": "Type: stockout, Shortfall: 200, Delay: 4d, Reason: Primary supplier out of stock on 200 units of Fe 550D TMT Rebar due to regional mill allocation deficit. Deliveries delayed by 4 days to next Tuesday."
+  },
+  {
+    "id": "AUD-1793561013190-0f5b",
+    "timestamp": "2026-11-01T19:23:33Z",
+    "action": "QUALITY_BATCH_RECORDED",
+    "orderId": "BATCH-TEST-9999",
+    "actor": "Er. Automated Test",
+    "details": "Batch TEST-LOT-9999 (UltraTech 43 Grade Ordinary Portland Cement (OPC)): Status 'Accepted', Qty 200.0 bag"
+  },
+  {
+    "id": "AUD-1793561015254-2e1d",
+    "timestamp": "2026-11-01T19:23:35Z",
+    "action": "CONSUMPTION_RECORDED",
+    "orderId": "CONS-TEST-9999",
+    "actor": "supervisor",
+    "details": "Activity 'None', Material 'UltraTech 43 Grade Ordinary Portland Cement (OPC)': Net 105.0 bag, Wastage 5.0 (4.76%)"
+  }
+]

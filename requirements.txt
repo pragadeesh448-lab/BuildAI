@@ -1,0 +1,2 @@
+# BuildBuy AI uses the Python 3 standard library (http.server, socketserver, json, urllib)
+# No external pip dependencies required.

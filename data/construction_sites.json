@@ -1,0 +1,26 @@
+[
+  {
+    "id": "SITE-001",
+    "name": "Green Valley Villa - Phase 1",
+    "plot": "Plot 42, Green Valley Enclave, Katpadi",
+    "city": "Vellore",
+    "pincode": "632014",
+    "landmark": "Near VIT Main Gate",
+    "contactName": "Er. K. Senthil",
+    "contactPhone": "+91 98421 55201",
+    "accessType": "heavy",
+    "isDefault": true
+  },
+  {
+    "id": "SITE-002",
+    "name": "Arcot Road Commercial Complex",
+    "plot": "No. 18/2, Arcot Main Road, Kagithapatrai",
+    "city": "Vellore",
+    "pincode": "632012",
+    "landmark": "Opposite Government Bus Depot",
+    "contactName": "Er. R. Murali",
+    "contactPhone": "+91 94432 88190",
+    "accessType": "medium",
+    "isDefault": false
+  }
+]
